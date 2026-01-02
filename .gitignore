@@ -1,0 +1,80 @@
+# =================================================================
+# Unity Gitignore untuk Root Folder (Multi-Project)
+# =================================================================
+
+# Abaikan folder Library, Temp, Obj, dll di level mana pun (PENTING!)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Mm]emoryCaptures/
+**/[Rr]ecordings/
+
+# File log
+*.log
+**/sysinfo.txt
+
+# =================================================================
+# Aset Spesifik
+# =================================================================
+*.blend1
+*.blend1.meta
+*.DotSettings.user
+.vs/
+.gradle/
+.utmp/
+
+# =================================================================
+# File Project yang Digenerate Otomatis (Abaikan agar tidak konflik)
+# =================================================================
+**/ExportedObj/
+**/.consulo/
+**/*.csproj
+**/*.unityproj
+**/*.sln
+**/*.suo
+**/*.tmp
+**/*.user
+**/*.userprefs
+**/*.pidb
+**/*.booproj
+**/*.svd
+**/*.pdb
+**/*.mdb
+**/*.opendb
+**/*.VC.db
+
+# Metadata dari file temporary
+**/*.pidb.meta
+**/*.pdb.meta
+**/*.mdb.meta
+**/mono_crash.*
+
+# =================================================================
+# Hasil Build (File Besar)
+# =================================================================
+**/*.apk
+**/*.aab
+**/*.unitypackage
+**/*.unitypackage.meta
+**/*.app
+
+# =================================================================
+# Addressables & Visual Scripting
+# =================================================================
+**/ServerData/
+**/[Aa]ssets/StreamingAssets/aa/*
+**/[Aa]ssets/AddressableAssetsData/link.xml*
+**/[Aa]ssets/Addressables_Temp*
+**/[Aa]ssets/AddressableAssetsData/*/*.bin*
+**/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# =================================================================
+# Properti & Test
+# =================================================================
+crashlytics-build.properties
+**/InitTestScene*.unity*
+**/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
